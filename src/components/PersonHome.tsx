@@ -39,7 +39,6 @@ const PersonHome = () => {
     );
 
     const handleScroll = () => {
-      const scrollY = window.scrollY;
       const elements = [
         titleRef.current,
         subtitleRef.current,
